@@ -10,3 +10,6 @@ function closeNavbar()
 {
      sidenav.style.display="none"
 }
+
+var search =document.getElementById("search")
+ 
