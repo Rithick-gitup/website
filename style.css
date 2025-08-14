@@ -114,13 +114,16 @@ h1 {
     height: 39px;
     border-radius: 20px;
     text-align: center;
+    font-size: 1.4em;
 }
 
 .products{
 
     text-align: center;
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px   ;
 }
 
 .products .product{
